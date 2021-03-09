@@ -20,7 +20,4 @@ ul li a {
     color: rgb(43, 21, 21);
     font-size: 1em;
 
-    ul li {
-        list-style: square;
-
-    }
+}
