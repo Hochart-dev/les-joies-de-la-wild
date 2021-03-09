@@ -1,1 +1,11 @@
+body {
+    background-color: #F76C6C;
+    
+}
 
+main {
+    background-color: white;
+    width : 95vw;
+    height: 95vh;
+    margin: auto;
+}
