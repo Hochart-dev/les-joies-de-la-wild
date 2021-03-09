@@ -1,6 +1,5 @@
 body {
     background-color: #F76C6C;
-    
 }
 
 main {
@@ -9,3 +8,19 @@ main {
     height: 95vh;
     margin: auto;
 }
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: comic
+    color: rgb(43, 21, 21);
+    font-size: 1em;
+
+    ul li {
+        list-style: square;
+
+    }
