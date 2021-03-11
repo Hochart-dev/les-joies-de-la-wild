@@ -23,23 +23,11 @@ main {
 ul {
     display: flex;
     justify-content: space-around;
+
     height: 5vh;
     
     
 }
-
-.icones{
-    display: flex;
-    justify-content:flex-start;
-    height: 3vh;
-   
-   
-    
-    
-}
-
-
-
 .logo{
     width: 15vw;
     height: 15vh;
@@ -53,9 +41,52 @@ footer{
     width: 90vw;
     margin-left: 20px;
     font-size: 10px;
-    border-radius: 2px dotted yellow;
-    
-    
-    
+       
+}
+
+ul li {
+    border: 15px solid #555;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: comic;
+    color: rgb(43, 21, 21);
+    font-size: 1em;
+   
+}
+
+
+
+.corps{
+display: flex;
+justify-content: space-between;
+margin-left: 100px;
+}
+
+.contenu{
+    display: flex;
+    background-color:honeydew;
+    border: solid #474141 2px; 
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 150px 3px 150px;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-clip:padding-box;
+}
+
+.contenu img{
+    margin:20px 20px 20px 0px;
+}
+
+.socialmedia img{
+    width:3em;
+    height: 3em;
 }
 
