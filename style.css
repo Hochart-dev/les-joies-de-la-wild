@@ -2,10 +2,61 @@ body {
     background-color: #F76C6C;
     
 }
+header{
+    background-color:#F76C6C;
+    
+}
 
+
+.h1{
+    color: azure;
+    text-align: center;
+    font-family: ;
+    font-size: 50px;
+}
 main {
     background-color: white;
     width : 95vw;
-    height: 95vh;
+    height: 85vh;
     margin: auto;
 }
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    
+    
+}
+
+.icones{
+    display: flex;
+    justify-content:flex-start;
+    height: 3vh;
+   
+   
+    
+    
+}
+
+
+
+.logo{
+    width: 15vw;
+    height: 15vh;
+    
+}
+
+
+
+footer{
+    text-align: center;
+    width: 90vw;
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 2px dotted yellow;
+    
+    
+    
+}
+
