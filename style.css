@@ -23,7 +23,6 @@ main {
 ul {
     display: flex;
     justify-content: space-around;
-<<<<<<< HEAD
     height: 5vh;
     
     
@@ -60,19 +59,3 @@ footer{
     
 }
 
-=======
-    background-color: #F76C6C;
-}
-
-ul li {
-    border: 15px solid #555;
-}
-
-ul li a {
-    text-decoration: none;
-    font-family: comic;
-    color: rgb(43, 21, 21);
-    font-size: 1em;
-   
-}
->>>>>>> 8e96947870445724efe88ebf7a24dc30bebed6d2
