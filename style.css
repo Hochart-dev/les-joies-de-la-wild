@@ -41,10 +41,8 @@ footer{
     width: 90vw;
     margin-left: 20px;
     font-size: 10px;
-    border-radius: 2px dotted yellow;
-    
-    
-    
+    border:solid black 2px;
+    border-radius: 2px ;
 }
 
 ul li {
