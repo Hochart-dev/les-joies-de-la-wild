@@ -67,9 +67,9 @@ h1 a{
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
-    height: 100vh;
+    height: 100%;
     width: 90vw;
     margin:0vw 10vw 5vh 5vw;
     background-color: rgb(245, 245, 245);
@@ -84,14 +84,25 @@ main {
     margin: 5px;
     padding: 5px;
     width: 50vw;
-    border:rgb(41, 41, 37) solid 2px ;
+    border: solid yellow 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blague1 {
+
+    border: solid black 2px;
+    width: 100%;
+    height: 40vh;
+}
+.im.fb{
+    width: 10px;
+    height: 10px;
 }
 main img{
     
     width: 20vw;
     height: 25vh;
     padding: 10px;
+    margin:10px;
     display: flex;
     border:rgb(41, 41, 37) solid 2px ;
     box-shadow: dimgrey;   
