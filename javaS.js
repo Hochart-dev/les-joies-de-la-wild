@@ -3,21 +3,20 @@
 function appendCharacter(charName){
     const main = document.querySelector("main");
 
-    const newArticle = document.createElement("artcile");
+    const newDiv = document.createElement(".mainBox");
 
-    const newBackground = document.createElement("img");
+    const newImage = document.createElement("img");
     newBackground.attributes. alt ="";
-    newBackground.src = "assets/img/fb.png";
-    newBackground.classList.add("background");
+    newBackground.src = "assets/img/BackEnd.jpg";
+    
     newArticle.appendChild(newBackground);
 
-    const newCharacter = document.createElement("img");
-    newCharacter.attributes. alt ="";
-    newCharacter.src = "assets/img/twitter.jpg";
-    newCharacter.classList.add("character");
-    newArticle.appendChild(newCharacter);
+    const newTitle = document.createElement("h2");
+    
 
-    main.appendChild(newArticle);
+    newArticle.appendChild(newTitle);
+
+    main.appendChild(newDiv);
 }
 
 //appendCharacter("nom de l'image");              /*a degager apres avoir ajouté la boucle for*/
