@@ -1,0 +1,130 @@
+body{
+    font-size: 20px    
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+}
+
+@media(min-width : 800px){
+    .navBar{
+        width: 100%;
+        font-size: small;        
+    }
+
+
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.navBar{
+    margin:10px;
+    width: 100vw;    
+}
+
+
+.navBar ul{
+    text-align:center; 
+}
+
+nav ul li  {
+    text-decoration:none;
+    display: inline-block;
+    padding: 20px 40px; 
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;   
+    
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: black;
+}
+
+
+h1 a{
+    text-align: center;
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.7em;
+    font-weight: bolder;
+    margin-top: 25px;
+    color: rgb(8, 8, 8);
+}
+
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{       
+    width: 80vw;
+    margin: 50px;
+}
+
+.mainBox {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between
+}
+
+.img_container {
+    width:50%;
+}
+
+.img_container >img {
+    width: 100%;
+    margin: 15px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin:25px;
+}
+
+
+.socialmedia img{
+    margin: 5px;
+    width: 3vw;
+}
+
+footer{
+    width: 100vw;    
+    margin-bottom: 5px;
+    border: solid black 1px;
+    text-align:center;
+    background-color:white;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+}
+   
+h2{
+font-family: 'Shadows Into Light', cursive;
+font-size:1.8em;
+font-weight: bolder;
+}
+
+body{
+    cursor:wait;
+  }
+
+header{
+    cursor:wait;
+  }
