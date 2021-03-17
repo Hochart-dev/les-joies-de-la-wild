@@ -28,7 +28,7 @@ header{
 .navBar{
     
     margin:10px;
-    width: 100vw;
+    width: 98vw;
     
     
 }
@@ -102,7 +102,13 @@ h2 {
 
 h2 a{
     text-decoration: none;
+    color:#000;
     
+    
+}
+
+h2  :hover {
+    color:blue;
 }
 .container{
     width: 80vw;
@@ -172,6 +178,10 @@ button{
     background-color: rgba(190, 184, 184, 0.829);
 }
 
+iframe {
+    
+    width: 100%;
+    margin: 1%;
 .news{
 
     text-decoration: none;
