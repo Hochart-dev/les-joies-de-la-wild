@@ -6,6 +6,7 @@ body{
 }
 header{
     display: flex;
+    /*flex-wrap: wrap;*/
     align-items: center;
     background-color:#F76C6C;
     width: 100vw;
@@ -23,7 +24,7 @@ header{
 }
 
 .navBar{
-    
+    display: none;
     margin:10px;
     width: 100vw;
     
@@ -31,6 +32,7 @@ header{
 }
 .navBar ul{
     text-align:right;
+ 
    
     
     
@@ -44,13 +46,14 @@ nav ul li  {
     background-color: rgb(161, 153, 153);
     display: inline-block;
     
-    padding: 20px 40px;
+ 
     
 }
 nav ul li a {
     text-decoration:none;
     color:white;
-    font-size: 20px;
+    font-size: 1.1em;
+
     
 }
 nav ul :hover {
@@ -58,6 +61,7 @@ nav ul :hover {
     color: #000;
     transition: .4s;
     border: 1px solid #F76C6C; 
+
 }
 
 
@@ -106,7 +110,7 @@ h2 a{
    
     
     width: 80vw;
-    margin: 50px;
+    margin: 5vw;
     
 }
 
@@ -124,7 +128,7 @@ h2 a{
 }
 
 .img_container {
-    width:50%;
+    width:800px;
 }
 
 .img_container >img {
