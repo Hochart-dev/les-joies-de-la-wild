@@ -5,17 +5,19 @@ body{
     
 }
 header{
-    column-count: 4;
+    position: fixed;
+    
     display: flex;
-    align-items: center;
+    
     background-color:#F76C6C;
-    width: 100vw;
+    
     height: 20vh;
 }
 
+
 .menu{
     
-    width: 100%;
+    
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -26,32 +28,27 @@ header{
 .navBar{
     
     margin:10px;
-    width: 100vw;
+    width: 98vw;
     
     
 }
 .navBar ul{
     text-align:right;
-   
-    
-    
-    
-   
-    
 }
 
 nav ul li  {
     text-decoration:none;
     background-color: rgb(161, 153, 153);
     display: inline-block;
-    
     padding: 20px 40px;
-    
+    border-radius: 5px;
 }
+
+
 nav ul li a {
     text-decoration:none;
     color:white;
-    font-size: 20px;
+    font-size: 1.5em;
     
 }
 nav ul :hover {
@@ -65,27 +62,37 @@ nav ul :hover {
 h1 a{
     text-decoration: none;
     font-family: 'Varela Round', sans-serif;
+<<<<<<< HEAD
     font-size: 2.3em;
     font-weight: bolder;
     margin-top: 25px;
  
+=======
+    font-size: 2.0em;
+    font-weight: bolder;
+    
+    
+>>>>>>> c849672230144e1725fa576dc0e87b5045d1d39b
     color: rgb(253, 250, 250);
     
 
 }
+
 .logo{
-     display: flex;
-     justify-content: flex-start;
-    margin-right: 0px;
-    width: 10vw;
+    display: flex;
+    justify-content: flex-start;
+    
     height: 13vh;
+    
 }
 
 
 main {
-    
+    display: flex;
+    justify-content: center;
     height: 100%;
-    width: 100%;
+    padding-top: 30vh;
+
     
 }
 
@@ -111,10 +118,7 @@ h2  :hover {
     color:blue;
 }
 .container{
-   
-    
     width: 80vw;
-    margin: 50px;
     
 }
 
@@ -160,8 +164,8 @@ h2  :hover {
 
 
 footer{
-    width: 100vw;
     
+    width: 95vw;
     margin-bottom: 5px;
     border: solid black 1px;
     text-align:center;
@@ -189,4 +193,63 @@ iframe {
 
     text-decoration: none;
     color: #000;
+}
+@media(max-width:600px){
+    header{
+        position: fixed;
+        
+        display: flex;
+        
+        background-color:#F76C6C;
+        
+        height: 15vh;
+    }
+    
+    h1 a{
+        font-size: 1.0em;
+    }
+    
+    .container{
+
+        width: 100vw;
+        
+        
+    }
+
+
+    .mainBox {
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        
+        border: solid grey 2px;
+        border-radius: 5px;
+        background-color: rgba(233, 230, 230, 0.678);
+    }
+    .img_container >img {
+        width: 100vw;
+        margin: 0px;
+        
+        
+      
+    }
+    .socialmedia{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        
+    }
+    .socialmedia img{
+        margin: 5px;
+        width: 15vw;
+
+       
+    
+    }
+    .img_container {
+        width:100%;
+    }
 }
