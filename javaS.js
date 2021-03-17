@@ -20,11 +20,11 @@ function appendCharacter(charName){
     main.appendChild(newArticle);
 }
 
-appendCharacter("nom de l'image");              /*a degager apres avoir ajouté la boucle for*/
-appendCharacter("autre nom de l'image");        /*a degager apres avoir ajouté la boucle for*/
+//appendCharacter("nom de l'image");              /*a degager apres avoir ajouté la boucle for*/
+//appendCharacter("autre nom de l'image");        /*a degager apres avoir ajouté la boucle for*/
 
 
-const characters = ["img1","img2"];
-for(let i = 0; i < characters.length,i++){
-    console.log(characters[i]);
-}
+//const characters = ["img1","img2"];
+//for(let i = 0; i < characters.length,i++){
+  //  console.log(characters[i]);
+//}
