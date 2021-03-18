@@ -55,7 +55,7 @@ h1 a{
 
 main {
     height: 100%;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 
 
@@ -65,7 +65,7 @@ main {
 }
 
 .mainBox {
-    margin: 15px;
+
     display: flex;
     justify-content: center;
     align-content: space-between
@@ -119,10 +119,12 @@ body{
         position: fixed;
         display: flex;
         height: 5vh;
+        
     }
     
     h1 a{
         font-size: 1.0em;
+        
     }
     
     .container{
@@ -131,7 +133,9 @@ body{
 
     .mainBox {
         display: flex;
+        justify-content: center;
         flex-direction: column;
+        width: 100%;
         border: solid grey 2px;
         border-radius: 5px;
         background-color: rgba(233, 230, 230, 0.678);
@@ -154,12 +158,14 @@ body{
     }
 
     .img_container {
-        width:100%;}
+        width:80%;}
     }
     
     main {
-        height: 100%;
-        padding-top: 10vh;
+        height: 90%;
+        padding-top: 20vh;
+        display: flex;
+        justify-content: center;
     }
 
     .navBar ul{
@@ -171,4 +177,20 @@ body{
         display: inline-block;
         padding: 0.5vw;
         font-family: 'Shadows Into Light', cursive;
-        font-weight: bolder;      
+        font-weight: bolder; 
+    }     
+
+        h1 a{
+            text-align: center;
+            display: flex;
+            width: 100VW;
+            text-decoration: none;
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 2em;
+            font-weight: bolder;
+            margin-top: 50px;
+            color: rgb(8, 8, 8);
+            background-color: white;
+        }
+
+    
