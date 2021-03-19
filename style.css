@@ -158,7 +158,7 @@ h2  :hover {
 
 footer{
     
-    width: 95vw;
+    width: 90vw;
     margin-bottom: 5px;
     border: solid black 1px;
     text-align:center;
@@ -181,8 +181,8 @@ button{
 iframe {
     
     width: 100%;
-    margin: 1%;
-}
+    margin: 1%;}
+    
 .news{
 
     text-decoration: none;
@@ -246,4 +246,6 @@ iframe {
     .img_container {
         width:100%;
     }
+
+
 }
