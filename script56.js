@@ -10,7 +10,7 @@ const contents = ["facebook","twitter","instagram"];
 
 for(let i = 0; i < contents.length;i++) {
     const imageLink = document.createElement('a');
-    imageLink.href = `https://www.${contents[i]}.com`
+    imageLink.href = `https://www.${contents[i]}.com`;
     imageLink.target = "_blank";
 
     const newSocialcontent = document.createElement("img"); 
