@@ -8,6 +8,9 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    -webkit-box-shadow: 8px 0 10px 5px rgba(0, 0, 0, 0.561);
+    box-shadow: 8px 0 10px 5px rgba(0, 0, 0, 0.644);
+    border-radius: 8px;
 }
 .logo{
     display: flex;
