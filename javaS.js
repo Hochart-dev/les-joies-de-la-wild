@@ -1,29 +1,53 @@
 
 
-function appendContent(contentName){
+function appendContent(content){
     const main = document.querySelector(".container");
     const newMainBox = document.createElement("div");
      newMainBox.classList.add("mainBox");
     
 
+    const newTitle = document.createElement("h2");
+    newTitle.innerText = content.imgTitle;
+    newTitle.classList.add("title");
+
+    
+
     const newContent = document.createElement("img");
     newContent.attributes. alt ="";
-    newContent.src = `assets/img/${contentName}/1.jpg`;
-    
+    newContent.src = `assets/img/${content.imagePath}/1.jpg`;
     newContent.classList.add("content");
-    newMainBox.appendChild(newContent);
-
-    /*const newTitle = document.createElement("h2");
-    newTitle.src = `assets/title/${contentName}/1.txt`;
-    newTitle.classList.add("title");
-    newContent.appendChild(newTitle);
-    */
-    main.appendChild(newMainBox);
     
+    main.appendChild(newTitle);
+    main.appendChild(newMainBox);
+   
+    newMainBox.appendChild(newContent);
+   
+     
 }
 
 
-const contents = ["backEnd","cars","images","failCss"];
+const contents = [
+    {
+        imgTitle:"when you are not taken seriously...",
+        imagePath: "backEnd"
+    },
+    
+    {
+        imgTitle:"when you are really patient...",
+        imagePath: "cars"
+    },
+    
+    {
+        imgTitle:"when you say Java in front of Loïc..",
+        imagePath: "images"
+    },
+    
+    {
+        imgTitle:"when you take a look at your css...",
+        imagePath: "failCss"
+    }
+];
+
 for(let i = 0; i < contents.length;i++) {
    appendContent(contents[i]);
   
