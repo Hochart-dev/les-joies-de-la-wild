@@ -149,7 +149,8 @@ iframe {
     nav ul li a {
         text-decoration:none;
         color:white;
-        font-size: 0.5em;       
+        font-size: 0.5em; 
+              
     }
     .container{
         width: 100vw;

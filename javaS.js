@@ -1,29 +1,49 @@
 
 
-function appendCharacter(charName){
-    const main = document.querySelector("main");
-
-    const newDiv = document.createElement(".mainBox");
-
-    const newImage = document.createElement("img");
-    newBackground.attributes. alt ="";
-    newBackground.src = "assets/img/BackEnd.jpg";
-    
-    newArticle.appendChild(newBackground);
-
-    const newTitle = document.createElement("h2");
+function appendContent(contentName){
+    const main = document.querySelector(".container");
+    const newMainBox = document.createElement("div");
+     newMainBox.classList.add("mainBox");
     
 
-    newArticle.appendChild(newTitle);
+    const newContent = document.createElement("img");
+    newContent.attributes. alt ="";
+    newContent.src = `assets/img/${contentName}/1.jpg`;
+    
+    newContent.classList.add("content");
+    newMainBox.appendChild(newContent);
 
-    main.appendChild(newDiv);
+    /*const newTitle = document.createElement("h2");
+    newTitle.src = `assets/title/${contentName}/1.txt`;
+    newTitle.classList.add("title");
+    newContent.appendChild(newTitle);
+    */
+    main.appendChild(newMainBox);
+    
 }
 
-//appendCharacter("nom de l'image");              /*a degager apres avoir ajouté la boucle for*/
-//appendCharacter("autre nom de l'image");        /*a degager apres avoir ajouté la boucle for*/
+const contents = ["backEnd","cars","images","failCss"];
+for(let i = 0; i < contents.length;i++) {
+   appendContent(contents[i]);
+  
+}
+const mainBox = document.querySelectorAll(".mainBox");
 
+function appendSocial (contentName) {
+const newShare = document.createElement("div");
+newShare.classList.add("socialmedia");
+contentName.appendChild(newShare);
+const contents = ["facebook","twitter","instagram"];
 
-//const characters = ["img1","img2"];
-//for(let i = 0; i < characters.length,i++){
-  //  console.log(characters[i]);
-//}
+for(let i = 0; i < contents.length;i++) {
+    const newSocialcontent = document.createElement("img"); 
+    newSocialcontent. attributes. alt = "";
+    newSocialcontent.src = `assets/icones/${contents[i]}/1.jpg`;
+    newSocialcontent.classList.add("content");
+    
+    newShare.appendChild(newSocialcontent);
+}
+}
+for(let box of mainBox){
+    appendSocial(box);
+};
