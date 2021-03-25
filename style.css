@@ -76,7 +76,7 @@ h2  :hover {
 
 .container{
        width: 80vw;
-       margin-left: 25%;   
+       margin-left: 20%;   
 }
 
 .mainBox {
@@ -90,7 +90,7 @@ h2  :hover {
     background-color: rgba(228, 213, 213, 0.678);  
 }
 .mainBox {
-    width:60%;
+    width:80%;
     
 }
 .content {

@@ -28,6 +28,19 @@ function appendContent(content){
 
 const contents = [
     {
+        imgTitle:"when you have to present your project on Friday ...",
+        imagePath: "bang"
+    },
+    
+    {
+        imgTitle:"when you are too tempted by the dark web ...",
+        imagePath: "sofia"
+    },
+    
+    
+    
+    
+    {
         imgTitle:"when you are not taken seriously...",
         imagePath: "backEnd"
     },
