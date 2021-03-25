@@ -48,11 +48,6 @@ const contents = [
     }
 ];
 
-<<<<<<< HEAD
-=======
-
-const contents = ["backEnd","cars","images","failCss"];
->>>>>>> cf304d59eecdcdb81ea250cb01ac706faba8d2b7
 for(let i = 0; i < contents.length;i++) {
    appendContent(contents[i]);
   
