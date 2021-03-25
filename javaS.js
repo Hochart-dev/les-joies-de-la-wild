@@ -27,6 +27,7 @@ for(let i = 0; i < contents.length;i++) {
    appendContent(contents[i]);
   
 }
+
 const mainBox = document.querySelectorAll(".mainBox");
 
 function appendSocial (contentName) {
@@ -36,14 +37,20 @@ contentName.appendChild(newShare);
 const contents = ["facebook","twitter","instagram"];
 
 for(let i = 0; i < contents.length;i++) {
+    const imageLink = document.createElement('a');
+    imageLink.href = `https://www.${contents[i]}.com`
+    imageLink.target = "_blank";
+
     const newSocialcontent = document.createElement("img"); 
     newSocialcontent. attributes. alt = "";
     newSocialcontent.src = `assets/icones/${contents[i]}/1.jpg`;
     newSocialcontent.classList.add("content");
-    
-    newShare.appendChild(newSocialcontent);
+
+    imageLink.appendChild(newSocialcontent);
+    newShare.appendChild(imageLink);
 }
 }
-for(let box of mainBox){
-    appendSocial(box);
-};
+
+for (let i = 0; i < mainBox.length; i++) {
+    appendSocial(mainBox[i]);
+}
