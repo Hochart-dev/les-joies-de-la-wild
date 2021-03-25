@@ -73,6 +73,10 @@ h2  :hover {
     color:blue;
 }
 
+h3{
+    
+
+}
 .container{
        width: 80vw;
        margin-left: 25%;   
@@ -80,6 +84,7 @@ h2  :hover {
 
 .mainBox {
     margin-top: 15px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: center;
     align-content: space-between;
