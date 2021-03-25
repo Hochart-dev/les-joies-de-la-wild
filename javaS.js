@@ -22,6 +22,7 @@ function appendContent(contentName){
     
 }
 
+
 const contents = ["backEnd","cars","images","failCss"];
 for(let i = 0; i < contents.length;i++) {
    appendContent(contents[i]);
