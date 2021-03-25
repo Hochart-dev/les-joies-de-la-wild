@@ -28,6 +28,9 @@ for (let i = 0; i < mainBox.length; i++) {
 }
 
 function play() {
-    var audio = new Audio('assets/mp3/modem.mp3');
+    //var audio = new Audio('assets/mp3/modem.mp3');
+    const audio = document.querySelector("#toto");
     audio.play();
-  }
+    document.body.removeEventListener("click", play);
+}
+document.body.addEventListener("click", play);
