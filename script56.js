@@ -26,3 +26,8 @@ for(let i = 0; i < contents.length;i++) {
 for (let i = 0; i < mainBox.length; i++) {
     appendSocial(mainBox[i]);
 }
+
+function play() {
+    var audio = new Audio('assets/mp3/modem.mp3');
+    audio.play();
+  }

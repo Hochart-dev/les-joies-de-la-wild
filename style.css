@@ -73,10 +73,7 @@ h2  :hover {
     color:blue;
 }
 
-h3{
-    
 
-}
 .container{
        width: 80vw;
        margin-left: 25%;   
@@ -120,12 +117,6 @@ footer{
     border: solid black 1px;
     text-align:center;
     background-color:white;
-}
-form{
-    border: solid black 1px ;
-    width:50vw;   
-    padding: 10px;
-    margin: 30px;
 }
 button{
     background-color: rgba(190, 184, 184, 0.829);
