@@ -66,11 +66,12 @@ h2  :hover {
 }
 .container{
        width: 80vw;
-       margin-left: 20%;   
+       margin-left:20%;   
 }
 .mainBox {
     margin-top: 15px;
     margin-bottom: 70px;
+    margin-left:10%; 
     display: flex;
     justify-content: center;
     align-content: space-between;
@@ -78,12 +79,14 @@ h2  :hover {
     border-radius: 5px;
     background-color: rgba(228, 213, 213, 0.678);  
 }
+
+
 .mainBox {
-    width:80%;
+    width:40vw;
     
 }
 .content {
-    width: 100%;
+    width: 80%;
     margin: 15px; 
 }
 .socialmedia {
@@ -271,7 +274,8 @@ nav ul :hover {
         width: 100%;
         border: solid grey 2px;
         border-radius: 5px;
-        background-color: rgba(233, 230, 230, 0.678);
+        background-color: rgba(233, 230, 230, 0.678); 
+        margin-left:0; 
     }
     .content {
         width: 100vw;
