@@ -134,7 +134,7 @@ iframe {
     
 }
 .input_field input {
-    width: 35%;
+    width: 99%;
     font-size: 1.5em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
@@ -312,6 +312,7 @@ nav ul :hover {
     .contactFormu{
         display: flex;
         flex-direction: column;
+        
     }
     .input_field input {
         width: 90%;
@@ -323,5 +324,17 @@ nav ul :hover {
         font-size: 1.5em;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     }
+
+    #myform{
+        background-color: rgba(233, 230, 230, 0.678);
+        border: solid black 1px ;
+        border-radius: 8px;
+        width:85vw;
+        padding: 20px;
+        margin: 12px;
+    }
+
+    
+    
     
 }
